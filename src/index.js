@@ -1,13 +1,9 @@
 import React from "react";
 import ReactDOM from "react-dom";
 import "./index.css";
+import App from "./App";
 
 ReactDOM.render(
-	<div className="wrapper">
-		<div className="card">=)</div>
-		<div className="card">=(</div>
-		<div className="card">=*</div>
-		<div className="card">O_o</div>
-	</div>,
-	document.querySelector("#root"),
-)
+    <App/>,
+    document.querySelector("#root")
+);
